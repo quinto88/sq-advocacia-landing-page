@@ -1,0 +1,92 @@
+
+import { Scale, FileText, Users, Building, Heart, Car } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+
+const Services = () => {
+  const services = [
+    {
+      icon: Scale,
+      title: 'Direito Civil',
+      description: 'Contratos, responsabilidade civil, direitos reais e questões patrimoniais com expertise e dedicação.',
+      features: ['Contratos e Negociações', 'Responsabilidade Civil', 'Direitos Reais']
+    },
+    {
+      icon: Building,
+      title: 'Direito Empresarial',
+      description: 'Assessoria jurídica completa para empresas, desde constituição até fusões e aquisições.',
+      features: ['Constituição de Empresas', 'Contratos Comerciais', 'Compliance']
+    },
+    {
+      icon: Users,
+      title: 'Direito Trabalhista',
+      description: 'Defesa dos direitos trabalhistas com foco na justiça e equidade nas relações de trabalho.',
+      features: ['Rescisões e Demissões', 'Acordos Trabalhistas', 'Processos CLT']
+    },
+    {
+      icon: Heart,
+      title: 'Direito de Família',
+      description: 'Acompanhamento sensível e profissional em questões familiares delicadas.',
+      features: ['Divórcios e Separações', 'Guarda de Filhos', 'Pensão Alimentícia']
+    },
+    {
+      icon: FileText,
+      title: 'Direito Imobiliário',
+      description: 'Segurança jurídica em transações imobiliárias e questões de propriedade.',
+      features: ['Compra e Venda', 'Regularização', 'Usucapião']
+    },
+    {
+      icon: Car,
+      title: 'Direito do Trânsito',
+      description: 'Defesa em infrações de trânsito e processos relacionados ao código de trânsito.',
+      features: ['Multas e Infrações', 'Suspensão de CNH', 'Recursos']
+    }
+  ];
+
+  return (
+    <section id="servicos" className="py-20 bg-white">
+      <div className="container-width section-padding">
+        <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-900 mb-4">
+            Áreas de Atuação
+          </h2>
+          <p className="text-lg text-navy-600 max-w-2xl mx-auto">
+            Oferecemos assessoria jurídica especializada em diversas áreas do direito, 
+            sempre com foco na excelência e nos melhores resultados para nossos clientes.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services.map((service, index) => (
+            <Card 
+              key={index} 
+              className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2 animate-fade-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <CardContent className="p-8">
+                <div className="text-navy-600 mb-6 group-hover:text-navy-800 transition-colors">
+                  <service.icon size={48} />
+                </div>
+                <h3 className="text-xl font-semibold text-navy-900 mb-4 font-playfair">
+                  {service.title}
+                </h3>
+                <p className="text-navy-600 mb-6 leading-relaxed">
+                  {service.description}
+                </p>
+                <ul className="space-y-2">
+                  {service.features.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="text-sm text-navy-500 flex items-center">
+                      <div className="w-2 h-2 bg-navy-300 rounded-full mr-3"></div>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;
