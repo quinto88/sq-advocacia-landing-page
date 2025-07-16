@@ -1,4 +1,3 @@
-
 import { Scale, FileText, Users, Building, Heart, Landmark } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -6,9 +5,9 @@ const Services = () => {
   const services = [
     {
       icon: Building,
-      title: 'Direito Empresarial',
-      description: 'Assessoria jurídica completa para empresas, desde constituição até fusões e aquisições.',
-      features: ['Constituição de Empresas', 'Contratos Comerciais', 'Compliance']
+      title: 'Direito Imobiliário',
+      description: 'Proteção completa dos seus direitos em transações e questões imobiliárias.',
+      features: ['Revisão de Contratos Imobiliários', 'Anulação/Suspensão de Leilão Judicial/Extrajudicial', 'Defesa em Execução de Imóveis dados em Garantia']
     },
     {
       icon: Landmark,
