@@ -1,15 +1,9 @@
 
-import { Scale, FileText, Users, Building, Heart, Car } from 'lucide-react';
+import { Scale, FileText, Users, Building, Heart, Landmark } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Services = () => {
   const services = [
-    {
-      icon: Scale,
-      title: 'Direito Civil',
-      description: 'Contratos, responsabilidade civil, direitos reais e questões patrimoniais com expertise e dedicação.',
-      features: ['Contratos e Negociações', 'Responsabilidade Civil', 'Direitos Reais']
-    },
     {
       icon: Building,
       title: 'Direito Empresarial',
@@ -17,28 +11,10 @@ const Services = () => {
       features: ['Constituição de Empresas', 'Contratos Comerciais', 'Compliance']
     },
     {
-      icon: Users,
-      title: 'Direito Trabalhista',
-      description: 'Defesa dos direitos trabalhistas com foco na justiça e equidade nas relações de trabalho.',
-      features: ['Rescisões e Demissões', 'Acordos Trabalhistas', 'Processos CLT']
-    },
-    {
-      icon: Heart,
-      title: 'Direito de Família',
-      description: 'Acompanhamento sensível e profissional em questões familiares delicadas.',
-      features: ['Divórcios e Separações', 'Guarda de Filhos', 'Pensão Alimentícia']
-    },
-    {
-      icon: FileText,
-      title: 'Direito Imobiliário',
-      description: 'Segurança jurídica em transações imobiliárias e questões de propriedade.',
-      features: ['Compra e Venda', 'Regularização', 'Usucapião']
-    },
-    {
-      icon: Car,
-      title: 'Direito do Trânsito',
-      description: 'Defesa em infrações de trânsito e processos relacionados ao código de trânsito.',
-      features: ['Multas e Infrações', 'Suspensão de CNH', 'Recursos']
+      icon: Landmark,
+      title: 'Direito Bancário',
+      description: 'Proteção e defesa dos seus direitos nas relações com instituições financeiras.',
+      features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias']
     }
   ];
 
@@ -55,7 +31,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <Card 
               key={index} 
