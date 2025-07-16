@@ -25,7 +25,7 @@ const Services = () => {
       icon: ShieldCheck,
       title: 'Direito do Consumidor',
       description: 'Proteção completa dos seus direitos como consumidor.',
-      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação contra Produto - Danos Causados por Produto com Defeito ou Serviço Prestado de Forma Incorreta', 'Vício em Produtos e Serviços']
+      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação Indenizatória contra Danos Causados por Produto Defeituoso ou Serviço Prestado Irregularmente', 'Vício em Produtos e Serviços']
     }
   ];
 
