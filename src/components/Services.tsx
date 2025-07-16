@@ -1,4 +1,5 @@
-import { Scale, FileText, Users, Building, Heart, Landmark } from 'lucide-react';
+
+import { Scale, FileText, Users, Building, Heart, Landmark, User, ShieldCheck } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Services = () => {
@@ -14,6 +15,18 @@ const Services = () => {
       title: 'Direito Bancário',
       description: 'Proteção e defesa dos seus direitos nas relações com instituições financeiras.',
       features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias']
+    },
+    {
+      icon: User,
+      title: 'Direito Civil',
+      description: 'Assessoria jurídica completa em questões civis e direitos fundamentais.',
+      features: ['Contratos e Obrigações', 'Responsabilidade Civil', 'Direitos da Personalidade']
+    },
+    {
+      icon: ShieldCheck,
+      title: 'Direito do Consumidor',
+      description: 'Proteção completa dos seus direitos como consumidor.',
+      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação contra Produto - Danos Causados por Produto com Defeito ou Serviço Prestado de Forma Incorreta']
     }
   ];
 
