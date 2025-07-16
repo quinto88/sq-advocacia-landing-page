@@ -1,4 +1,3 @@
-
 import { Scale, FileText, Users, Building, Heart, Landmark, User, ShieldCheck } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -8,25 +7,25 @@ const Services = () => {
       icon: Building,
       title: 'Direito Imobiliário',
       description: 'Proteção completa dos seus direitos em transações e questões imobiliárias.',
-      features: ['Revisão de Contratos Imobiliários', 'Anulação/Suspensão de Leilão Judicial/Extrajudicial', 'Defesa em Execução de Imóveis dados em Garantia']
+      features: ['Revisão de Contratos Imobiliários', 'Anulação/Suspensão de Leilão Judicial/Extrajudicial', 'Defesa em Execução de Imóveis dados em Garantia', 'Usucapião e Regularização Fundiária']
     },
     {
       icon: Landmark,
       title: 'Direito Bancário',
       description: 'Proteção e defesa dos seus direitos nas relações com instituições financeiras.',
-      features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias']
+      features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias', 'Revisão de Financiamentos']
     },
     {
       icon: User,
       title: 'Direito Civil',
       description: 'Assessoria jurídica completa em questões civis e direitos fundamentais.',
-      features: ['Contratos e Obrigações', 'Responsabilidade Civil', 'Direitos da Personalidade']
+      features: ['Contratos e Obrigações', 'Responsabilidade Civil', 'Direitos da Personalidade', 'Direito de Família e Sucessões']
     },
     {
       icon: ShieldCheck,
       title: 'Direito do Consumidor',
       description: 'Proteção completa dos seus direitos como consumidor.',
-      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação contra Produto - Danos Causados por Produto com Defeito ou Serviço Prestado de Forma Incorreta']
+      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação contra Produto - Danos Causados por Produto com Defeito ou Serviço Prestado de Forma Incorreta', 'Vício em Produtos e Serviços']
     }
   ];
 
