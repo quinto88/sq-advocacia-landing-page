@@ -1,4 +1,5 @@
-import { Scale, FileText, Users, Building, Heart, Landmark, User, ShieldCheck } from 'lucide-react';
+
+import { Scale, FileText, Users, Building, Heart, Landmark, User, Plane } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Services = () => {
@@ -22,10 +23,10 @@ const Services = () => {
       features: ['Contratos e Obrigações', 'Responsabilidade Civil', 'Direitos da Personalidade', 'Direito de Família e Sucessões']
     },
     {
-      icon: ShieldCheck,
-      title: 'Direito do Consumidor',
-      description: 'Proteção completa dos seus direitos como consumidor.',
-      features: ['Indenização contra Companhias Aéreas', 'Negativação Indevida e Cobranças Excessivas', 'Ação Indenizatória contra Danos Causados por Produto Defeituoso ou Serviço Prestado Irregularmente', 'Vício em Produtos e Serviços']
+      icon: Plane,
+      title: 'Direito Aeroportuário',
+      description: 'Especialização em questões jurídicas do setor aeroportuário e aviação civil.',
+      features: ['Indenizações por Atrasos e Cancelamentos de Voos', 'Extravio e Danos a Bagagens', 'Overbooking e Preterição de Passageiros', 'Acidentes Aeronáuticos e Responsabilidade Civil']
     }
   ];
 
