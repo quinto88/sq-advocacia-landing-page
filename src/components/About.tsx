@@ -103,12 +103,12 @@ const About = () => {
         <div className="container-width section-padding">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Foto */}
-            <div className="order-2 lg:order-1 animate-slide-in-left">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <div className="order-2 lg:order-1 animate-slide-in-left flex justify-center lg:justify-start">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
                 <img 
-                  src="/lovable-uploads/e8de146f-ff97-424d-a015-09a7ce6fa659.png" 
+                  src="/lovable-uploads/ed509e90-4001-46d7-9cd6-ac474e1acfd1.png" 
                   alt="Dr. Gustavo Quinto"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
