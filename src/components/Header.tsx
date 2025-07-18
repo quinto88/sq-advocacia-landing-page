@@ -37,6 +37,10 @@ const Header = () => {
               alt="SQ Advocacia" 
               className="h-12 w-auto"
             />
+            <div className="flex flex-col">
+              <span className="text-navy-800 font-bold text-xl font-playfair">SQ Advocacia</span>
+              <span className="text-navy-600 text-sm">Excelência em Direito</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
