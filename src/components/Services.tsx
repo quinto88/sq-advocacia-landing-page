@@ -17,12 +17,6 @@ const Services = () => {
       features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias', 'Revisão de Financiamentos']
     },
     {
-      icon: User,
-      title: 'Direito Civil',
-      description: 'Assessoria jurídica completa em questões civis e direitos fundamentais.',
-      features: ['Contratos e Obrigações', 'Responsabilidade Civil', 'Direitos da Personalidade', 'Direito de Família e Sucessões']
-    },
-    {
       icon: Plane,
       title: 'Direito Aeroportuário',
       description: 'Especialização em questões jurídicas do setor aeroportuário e aviação civil.',
