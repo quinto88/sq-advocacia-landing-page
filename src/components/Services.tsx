@@ -1,5 +1,5 @@
 
-import { Scale, FileText, Users, Building, Heart, Landmark, User, Plane } from 'lucide-react';
+import { Scale, FileText, Users, Building, Heart, Landmark, User, Plane, Shield } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Services = () => {
@@ -21,6 +21,12 @@ const Services = () => {
       title: 'Direito Aeroportuário',
       description: 'Especialização em questões jurídicas do setor aeroportuário e aviação civil.',
       features: ['Indenizações por Atrasos e Cancelamentos de Voos', 'Extravio e Danos a Bagagens', 'Overbooking e Preterição de Passageiros', 'Acidentes Aeronáuticos e Responsabilidade Civil']
+    },
+    {
+      icon: Shield,
+      title: 'Direito do Consumidor',
+      description: 'Proteção integral dos direitos do consumidor em relações de consumo.',
+      features: ['Ação Indenizatória contra Danos por Produto Defeituoso ou Serviço Irregular', 'Negativação Indevida', 'Cobranças Excessivas', 'Cirurgias Reparadoras e Bariátricas']
     }
   ];
 
