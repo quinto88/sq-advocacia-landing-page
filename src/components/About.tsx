@@ -122,7 +122,7 @@ const About = () => {
                 <div className="space-y-4 text-navy-700 leading-relaxed">
                   <p>
                     Advogado experiente e aprovado em diversos concursos jurídicos, 
-                    atualmente exercendo a função de Procurador Municipal.
+                    com sólida formação e experiência prática.
                   </p>
                   <p>
                     Especialista em matérias bancárias, imobiliárias e de consumidor, 
@@ -155,7 +155,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
-                    <span>Procuradoria Municipal</span>
+                    <span>Consultoria Jurídica</span>
                   </li>
                 </ul>
               </div>
