@@ -121,16 +121,16 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-navy-700 leading-relaxed">
                   <p>
-                    Advogado experiente e aprovado em diversos concursos jurídicos, 
-                    com sólida formação e experiência prática.
+                    Advogado aprovado em diversos concursos jurídicos, com formação sólida 
+                    e atuação especializada em litígios complexos.
                   </p>
                   <p>
-                    Especialista em matérias bancárias, imobiliárias e de consumidor, 
-                    com vasta experiência em litígios complexos e soluções jurídicas estratégicas.
+                    Especialista em direito bancário, imobiliário e do consumidor, 
+                    desenvolvendo soluções jurídicas estratégicas e personalizadas.
                   </p>
                   <p>
-                    Sua trajetória sólida em concursos públicos e experiência prática 
-                    garantem um atendimento de excelência, sempre focado na defesa 
+                    Sua trajetória em concursos públicos e prática advocatícia garantem 
+                    um atendimento de excelência, sempre focado na defesa efetiva 
                     dos interesses dos clientes.
                   </p>
                 </div>
