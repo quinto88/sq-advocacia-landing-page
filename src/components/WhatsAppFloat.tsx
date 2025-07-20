@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppFloat = () => {
   const openWhatsApp = () => {
-    const phoneNumber = "5511999999999"; // Número do WhatsApp
+    const phoneNumber = "5511999999999"; // Número do WhatsApp - (11) 9999-9999
     const message = "Olá! Gostaria de agendar uma consultoria gratuita.";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
