@@ -51,13 +51,6 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-navy-900">100+</div>
                 <div className="text-sm text-navy-600">Casos Resolvidos</div>
               </div>
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Award className="h-8 w-8 text-navy-600" />
-                </div>
-                <div className="text-2xl font-bold text-navy-900">95%</div>
-                <div className="text-sm text-navy-600">Taxa de Sucesso</div>
-              </div>
             </div>
           </div>
 

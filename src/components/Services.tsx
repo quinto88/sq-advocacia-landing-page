@@ -5,28 +5,16 @@ import { Card, CardContent } from '@/components/ui/card';
 const Services = () => {
   const services = [
     {
-      icon: Building,
-      title: 'Direito Imobiliário',
-      description: 'Proteção completa dos seus direitos em transações e questões imobiliárias.',
-      features: ['Revisão de Contratos Imobiliários', 'Anulação/Suspensão de Leilão Judicial/Extrajudicial', 'Defesa em Execução de Imóveis dados em Garantia', 'Usucapião e Regularização Fundiária']
+      icon: Shield,
+      title: 'Defesa em Busca e Apreensão',
+      description: 'Proteção dos seus direitos em processos de busca e apreensão de bens.',
+      features: ['Defesa em Ações de Busca e Apreensão de Veículos', 'Revisão de Contratos de Financiamento', 'Embargos à Execução', 'Suspensão de Medidas Cautelares']
     },
     {
       icon: Landmark,
       title: 'Direito Bancário',
       description: 'Proteção e defesa dos seus direitos nas relações com instituições financeiras.',
       features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias', 'Revisão de Financiamentos']
-    },
-    {
-      icon: Plane,
-      title: 'Direito Aeroportuário',
-      description: 'Especialização em questões jurídicas do setor aeroportuário e aviação civil.',
-      features: ['Indenizações por Atrasos e Cancelamentos de Voos', 'Extravio e Danos a Bagagens', 'Overbooking e Preterição de Passageiros', 'Acidentes Aeronáuticos e Responsabilidade Civil']
-    },
-    {
-      icon: Shield,
-      title: 'Direito do Consumidor',
-      description: 'Proteção integral dos direitos do consumidor em relações de consumo.',
-      features: ['Ação Indenizatória contra Danos por Produto Defeituoso ou Serviço Irregular', 'Negativação Indevida', 'Cobranças Excessivas', 'Cirurgias Reparadoras e Bariátricas']
     }
   ];
 

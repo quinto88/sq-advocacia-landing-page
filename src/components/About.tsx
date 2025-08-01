@@ -143,15 +143,11 @@ const About = () => {
                 <ul className="space-y-2 text-navy-700">
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
+                    <span>Defesa em Busca e Apreensão</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <CheckCircle size={16} className="text-navy-600" />
                     <span>Direito Bancário</span>
-                  </li>
-                  <li className="flex items-center space-x-2">
-                    <CheckCircle size={16} className="text-navy-600" />
-                    <span>Direito Imobiliário</span>
-                  </li>
-                  <li className="flex items-center space-x-2">
-                    <CheckCircle size={16} className="text-navy-600" />
-                    <span>Direito do Consumidor</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
