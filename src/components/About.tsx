@@ -151,7 +151,7 @@ const About = () => {
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
-                    <span>Consultoria Jurídica</span>
+                    <span>Direito do Consumidor</span>
                   </li>
                 </ul>
               </div>
