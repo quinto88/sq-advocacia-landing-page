@@ -108,7 +108,7 @@ const About = () => {
                 <img 
                   src="/lovable-uploads/03bcb484-ceb5-4d0d-ac93-55a5710b7cbf.png" 
                   alt="Dr. Gustavo Quinto"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>
