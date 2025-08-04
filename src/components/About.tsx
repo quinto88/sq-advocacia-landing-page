@@ -106,7 +106,7 @@ const About = () => {
             <div className="order-2 lg:order-1 animate-slide-in-left flex justify-center lg:justify-start">
               <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
                 <img 
-                  src="/lovable-uploads/ed509e90-4001-46d7-9cd6-ac474e1acfd1.png" 
+                  src="/lovable-uploads/03bcb484-ceb5-4d0d-ac93-55a5710b7cbf.png" 
                   alt="Dr. Gustavo Quinto"
                   className="w-full h-full object-cover"
                 />
