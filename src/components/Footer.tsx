@@ -72,8 +72,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-navy-700 mt-8 pt-8 text-center">
-          <p className="text-navy-300">
+        <div className="border-t border-navy-700 mt-8 pt-8">
+          <div className="text-center mb-6">
+            <button
+              onClick={() => {
+                const phoneNumber = "5551980570463";
+                const message = "Olá! Quero falar com um advogado.";
+                const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                window.open(url, '_blank');
+              }}
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg rounded-md transition-colors font-medium"
+            >
+              Quero falar com um advogado
+            </button>
+          </div>
+          <p className="text-navy-300 text-center">
             © 2024 SQ Advocacia. Todos os direitos reservados. | 
             <span className="ml-2">
               Desenvolvido com ❤️ para defender seus direitos

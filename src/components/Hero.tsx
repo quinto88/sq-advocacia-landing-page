@@ -35,6 +35,20 @@ const Hero = () => {
               </Button>
             </div>
 
+            <div className="pt-4">
+              <Button 
+                onClick={() => {
+                  const phoneNumber = "5551980570463";
+                  const message = "Olá! Quero falar com um advogado.";
+                  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                  window.open(url, '_blank');
+                }}
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg h-auto w-full sm:w-auto"
+              >
+                Quero falar com um advogado
+              </Button>
+            </div>
+
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
