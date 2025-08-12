@@ -49,23 +49,6 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8">
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Shield className="h-8 w-8 text-navy-600" />
-                </div>
-                <div className="text-2xl font-bold text-navy-900">5+</div>
-                <div className="text-sm text-navy-600">Anos de Experiência</div>
-              </div>
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Users className="h-8 w-8 text-navy-600" />
-                </div>
-                <div className="text-2xl font-bold text-navy-900">100+</div>
-                <div className="text-sm text-navy-600">Casos Resolvidos</div>
-              </div>
-            </div>
           </div>
 
           {/* Visual */}
