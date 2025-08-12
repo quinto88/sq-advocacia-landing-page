@@ -47,8 +47,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '(11) 9999-9999',
-      action: 'tel:+5511999999999'
+      content: '(51) 98057-0463',
+      action: 'tel:+5551980570463'
     },
     {
       icon: Mail,
@@ -59,8 +59,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Endereço',
-      content: 'Av. Paulista, 1000 - São Paulo/SP',
-      action: 'https://maps.google.com'
+      content: 'Atendimento online de excelência para todo o Brasil',
+      action: null
     },
     {
       icon: Clock,

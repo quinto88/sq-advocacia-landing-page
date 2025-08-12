@@ -20,7 +20,7 @@ const Footer = () => {
               Defendemos seus direitos com ética, compromisso e dedicação.
             </p>
             <p className="text-sm text-navy-300">
-              OAB/SP 123.456 - Inscrito na Ordem dos Advogados do Brasil
+              OAB/RS 121.915 - Inscrito na Ordem dos Advogados do Brasil
             </p>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
             <div className="space-y-3 text-navy-200">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>(11) 9999-9999</span>
+                <span>(51) 98057-0463</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
