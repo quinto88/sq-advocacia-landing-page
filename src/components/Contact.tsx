@@ -24,8 +24,8 @@ const Contact = () => {
     try {
       // Enviar email usando EmailJS
       await emailjs.send(
-        'service_wvx5pao', // Service ID configurado
-        'template_id', // Você ainda precisa configurar no EmailJS
+        'service_wvx5pao',
+        'template_ioye44x',
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -34,7 +34,7 @@ const Contact = () => {
           message: formData.message,
           to_email: 'sqadvocaciaesp@gmail.com'
         },
-        'public_key' // Você ainda precisa configurar no EmailJS
+        'orWPQCrFxJrGVpfcz'
       );
 
       toast({
