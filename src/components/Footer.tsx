@@ -16,12 +16,13 @@ const Footer = () => {
               />
             </div>
             <p className="text-navy-200 leading-relaxed mb-4">
-              Excelência em advocacia com mais de 15 anos de experiência. 
+              Excelência em advocacia com mais de 5 anos de experiência. 
               Defendemos seus direitos com ética, compromisso e dedicação.
             </p>
-            <p className="text-sm text-navy-300">
-              OAB/RS 121.915 - Inscrito na Ordem dos Advogados do Brasil
-            </p>
+            <div className="text-sm text-navy-300 space-y-1">
+              <p>OAB/RS 121.915 - Inscrito na Ordem dos Advogados do Brasil</p>
+              <p>CNPJ: 62.184.389/0001-20</p>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -61,7 +62,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>contato@sqadvocacia.com.br</span>
+                <span>sqadvocaciaesp@gmail.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-1" />

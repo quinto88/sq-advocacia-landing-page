@@ -53,8 +53,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'E-mail',
-      content: 'contato@sqadvocacia.com.br',
-      action: 'mailto:contato@sqadvocacia.com.br'
+      content: 'sqadvocaciaesp@gmail.com',
+      action: 'mailto:sqadvocaciaesp@gmail.com'
     },
     {
       icon: MapPin,
