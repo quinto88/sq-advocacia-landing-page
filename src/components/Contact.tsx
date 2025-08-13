@@ -227,18 +227,29 @@ const Contact = () => {
             <Card className="border-navy-200">
               <CardContent className="p-6">
                 <h4 className="font-semibold text-navy-900 mb-4">
-                  Consultoria Gratuita
+                  Como entrar em contato?
                 </h4>
                 <p className="text-navy-600 mb-4">
-                  Oferecemos uma primeira consulta gratuita para avaliar seu caso 
-                  e apresentar as melhores opções jurídicas disponíveis.
+                  Nosso escritório atende clientes de todo o Brasil através do WhatsApp, 
+                  oferecendo atendimento online personalizado e de qualidade.
                 </p>
                 <ul className="text-sm text-navy-500 space-y-2">
-                  <li>• Análise inicial do caso</li>
-                  <li>• Orientações jurídicas gerais</li>
-                  <li>• Apresentação de estratégias</li>
-                  <li>• Orçamento transparente</li>
+                  <li>• Atendimento via WhatsApp em todo o Brasil</li>
+                  <li>• Consultas online personalizadas</li>
+                  <li>• Resposta rápida e eficiente</li>
+                  <li>• Acompanhamento completo do seu caso</li>
                 </ul>
+                <Button 
+                  onClick={() => {
+                    const phoneNumber = "5551980570463";
+                    const message = "Olá! Gostaria de falar com um advogado.";
+                    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                    window.open(url, '_blank');
+                  }}
+                  className="w-full mt-4 bg-green-600 hover:bg-green-700 text-white"
+                >
+                  Falar no WhatsApp
+                </Button>
               </CardContent>
             </Card>
           </div>
