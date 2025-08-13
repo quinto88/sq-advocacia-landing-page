@@ -107,88 +107,33 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+          {/* How to Contact */}
           <Card className="shadow-xl border-0 animate-slide-in-left">
             <CardContent className="p-8">
               <h3 className="text-2xl font-playfair font-semibold text-navy-900 mb-6">
-                Envie sua Mensagem
+                Como entrar em contato?
               </h3>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-medium text-navy-700 mb-2">
-                      Nome Completo *
-                    </label>
-                    <Input
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="border-navy-200 focus:border-navy-500"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-navy-700 mb-2">
-                      Telefone
-                    </label>
-                    <Input
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      className="border-navy-200 focus:border-navy-500"
-                    />
-                  </div>
-                </div>
-                
-                <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    E-mail *
-                  </label>
-                  <Input
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="border-navy-200 focus:border-navy-500"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    Assunto *
-                  </label>
-                  <Input
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="border-navy-200 focus:border-navy-500"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    Mensagem *
-                  </label>
-                  <Textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={4}
-                    className="border-navy-200 focus:border-navy-500"
-                  />
-                </div>
-
-                <Button
-                  type="submit"
-                  className="w-full bg-navy-800 hover:bg-navy-900 text-white py-3 text-lg h-auto group"
-                >
-                  Enviar Mensagem
-                  <Send className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </form>
+              <p className="text-navy-600 mb-6">
+                Nosso escritório atende clientes de todo o Brasil através do WhatsApp, 
+                oferecendo atendimento online personalizado e de qualidade.
+              </p>
+              <ul className="text-navy-600 space-y-3 mb-8">
+                <li>• Atendimento via WhatsApp em todo o Brasil</li>
+                <li>• Consultas online personalizadas</li>
+                <li>• Resposta rápida e eficiente</li>
+                <li>• Acompanhamento completo do seu caso</li>
+              </ul>
+              <Button 
+                onClick={() => {
+                  const phoneNumber = "5551980570463";
+                  const message = "Olá! Gostaria de falar com um advogado.";
+                  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                  window.open(url, '_blank');
+                }}
+                className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg h-auto"
+              >
+                Falar no WhatsApp
+              </Button>
             </CardContent>
           </Card>
 
@@ -224,34 +169,6 @@ const Contact = () => {
               </div>
             </div>
 
-            <Card className="border-navy-200">
-              <CardContent className="p-6">
-                <h4 className="font-semibold text-navy-900 mb-4">
-                  Como entrar em contato?
-                </h4>
-                <p className="text-navy-600 mb-4">
-                  Nosso escritório atende clientes de todo o Brasil através do WhatsApp, 
-                  oferecendo atendimento online personalizado e de qualidade.
-                </p>
-                <ul className="text-sm text-navy-500 space-y-2">
-                  <li>• Atendimento via WhatsApp em todo o Brasil</li>
-                  <li>• Consultas online personalizadas</li>
-                  <li>• Resposta rápida e eficiente</li>
-                  <li>• Acompanhamento completo do seu caso</li>
-                </ul>
-                <Button 
-                  onClick={() => {
-                    const phoneNumber = "5551980570463";
-                    const message = "Olá! Gostaria de falar com um advogado.";
-                    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-                    window.open(url, '_blank');
-                  }}
-                  className="w-full mt-4 bg-green-600 hover:bg-green-700 text-white"
-                >
-                  Falar no WhatsApp
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
