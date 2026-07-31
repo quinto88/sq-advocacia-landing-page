@@ -1,20 +1,20 @@
 
-import { Scale, FileText, Users, Building, Heart, Landmark, User, Plane, Shield } from 'lucide-react';
+import { Home, FileText, Building } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Services = () => {
   const services = [
     {
-      icon: Shield,
-      title: 'Defesa em Busca e Apreensão',
-      description: 'Proteção dos seus direitos em processos de busca e apreensão de bens.',
-      features: ['Defesa em Ações de Busca e Apreensão de Veículos', 'Revisão de Contratos de Financiamento', 'Embargos à Execução', 'Suspensão de Medidas Cautelares']
+      icon: Home,
+      title: 'Regularização de Imóveis',
+      description: 'Transformamos a posse em segurança jurídica por meio da regularização do seu imóvel.',
+      features: ['Usucapião Extrajudicial', 'Adjudicação Compulsória', 'Retificação de Área e Registro', 'Regularização de Matrículas']
     },
     {
-      icon: Landmark,
-      title: 'Direito Bancário',
-      description: 'Proteção e defesa dos seus direitos nas relações com instituições financeiras.',
-      features: ['Análise de Contratos', 'Juros Abusivos', 'Cobrança de Dívidas Bancárias', 'Revisão de Financiamentos']
+      icon: FileText,
+      title: 'Consultoria Imobiliária',
+      description: 'Orientação jurídica preventiva para proteger seu patrimônio antes de qualquer negociação.',
+      features: ['Compra e Venda de Imóveis', 'Análise de Documentação', 'Elaboração e Revisão de Contratos', 'Due Diligence Imobiliária']
     }
   ];
 
