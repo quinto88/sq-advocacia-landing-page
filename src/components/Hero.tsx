@@ -29,9 +29,10 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button onClick={() => scrollToSection('contato')} className="bg-navy-800 hover:bg-navy-900 text-white px-8 py-3 text-lg h-auto group">
-                Consultoria Gratuita
+                Consultoria
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
+
               <Button onClick={() => scrollToSection('servicos')} variant="outline" className="border-navy-300 text-navy-700 hover:bg-navy-50 px-8 py-3 text-lg h-auto">
                 Nossos Serviços
               </Button>

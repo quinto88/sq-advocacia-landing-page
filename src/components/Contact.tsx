@@ -102,8 +102,9 @@ const Contact = () => {
           </h2>
           <p className="text-lg text-navy-600 max-w-2xl mx-auto">
             Estamos prontos para ouvir seu caso e oferecer a melhor solução jurídica. 
-            Agende sua consultoria gratuita.
+            Agende sua consultoria.
           </p>
+
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">

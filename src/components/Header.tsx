@@ -72,8 +72,9 @@ const Header = () => {
               onClick={() => scrollToSection('contato')}
               className="bg-navy-800 hover:bg-navy-900 text-white px-6 py-2 rounded-lg transition-colors"
             >
-              Consultoria Gratuita
+              Consultoria
             </Button>
+
           </nav>
 
           {/* Mobile Menu Button */}
@@ -117,8 +118,9 @@ const Header = () => {
                 onClick={() => scrollToSection('contato')}
                 className="bg-navy-800 hover:bg-navy-900 text-white w-full"
               >
-                Consultoria Gratuita
+                Consultoria
               </Button>
+
             </nav>
           </div>
         )}
