@@ -1,5 +1,6 @@
 
 import { CheckCircle, Target, Eye, Heart } from 'lucide-react';
+import amabileFoto from '@/assets/amabile.jpeg.asset.json';
 
 const About = () => {
   const values = [
@@ -154,6 +155,65 @@ const About = () => {
                     <span>Direito do Consumidor</span>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Apresentação da Dra. Amabile Stefeni */}
+      <section className="py-20 bg-navy-50">
+        <div className="container-width section-padding">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            {/* Informações */}
+            <div className="space-y-8 animate-slide-in-left">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-900 mb-6">
+                  Dra. Amabile Stefeni
+                </h2>
+                <div className="space-y-4 text-navy-700 leading-relaxed">
+                  <p>
+                    Advogada com atuação voltada ao Direito Imobiliário, dedicada à regularização
+                    de imóveis e à construção de soluções jurídicas que proporcionem segurança
+                    patrimonial e tranquilidade aos clientes.
+                  </p>
+                  <p>
+                    Sua atuação concentra-se especialmente em procedimentos de usucapião
+                    extrajudicial, regularização documental e consultoria imobiliária, sempre com
+                    uma abordagem estratégica, técnica e personalizada para cada caso.
+                  </p>
+                  <p>
+                    Acredita que a advocacia vai além da aplicação da lei: consiste em compreender
+                    a realidade de cada cliente e oferecer um atendimento próximo, transparente e
+                    comprometido com a proteção do seu patrimônio.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-sand-50 p-6 rounded-2xl">
+                <h3 className="text-xl font-semibold text-navy-900 mb-4 font-playfair">
+                  Áreas de Especialização
+                </h3>
+                <ul className="space-y-2 text-navy-700">
+                  {['Regularização de Imóveis', 'Usucapião Extrajudicial', 'Consultoria Imobiliária'].map((item) => (
+                    <li key={item} className="flex items-center space-x-2">
+                      <CheckCircle size={16} className="text-navy-600" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Foto */}
+            <div className="animate-slide-in-right flex justify-center lg:justify-end">
+              <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
+                <img
+                  src={amabileFoto.url}
+                  alt="Dra. Amabile Stefeni, advogada especialista em Direito Imobiliário"
+                  className="w-full h-full object-cover object-center"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
