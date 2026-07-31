@@ -10,7 +10,7 @@ const Hero = () => {
       });
     }
   };
-  return <section id="inicio" className="min-h-screen flex items-center bg-gradient-to-br from-navy-50 to-white pt-20">
+  return <section id="inicio" className="min-h-screen flex items-center bg-gradient-to-br from-sand-100 to-sand-50 pt-20">
       <div className="container-width section-padding w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
