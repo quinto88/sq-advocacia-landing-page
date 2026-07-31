@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-sand-50/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
       <div className="container-width section-padding">
         <div className="flex items-center justify-between h-20">
@@ -84,7 +84,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 py-4 animate-fade-in">
+          <div className="md:hidden bg-sand-50 border-t border-gray-100 py-4 animate-fade-in">
             <nav className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection('inicio')}

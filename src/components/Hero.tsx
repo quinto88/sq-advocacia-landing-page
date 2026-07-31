@@ -43,7 +43,7 @@ const Hero = () => {
                   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                   window.open(url, '_blank');
                 }}
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg h-auto w-full sm:w-auto"
+                className="bg-terracotta-400 hover:bg-terracotta-500 text-white px-8 py-3 text-lg h-auto w-full sm:w-auto"
               >
                 Quero falar com um advogado
               </Button>
