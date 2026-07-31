@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src={sqLogo.url} 
                 alt="SQ Advocacia" 
-                className="h-12 w-auto filter brightness-0 invert"
+                className="h-14 w-auto rounded-lg"
               />
             </div>
             <p className="text-navy-200 leading-relaxed mb-4">

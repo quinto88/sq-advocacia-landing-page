@@ -55,7 +55,7 @@ const Hero = () => {
           {/* Visual */}
           <div className="relative animate-slide-in-right">
             <div className="relative z-10">
-              <img src={sqLogo.url} alt="SQ Advocacia" className="w-full max-w-md mx-auto" />
+              <img src={sqLogo.url} alt="SQ Advocacia" className="w-full max-w-md mx-auto rounded-3xl shadow-xl" />
             </div>
             <div className="absolute inset-0 bg-gradient-to-br from-navy-100/50 to-navy-200/30 rounded-3xl transform rotate-3 -z-10"></div>
             <div className="absolute inset-0 bg-gradient-to-tl from-navy-50/50 to-navy-100/30 rounded-3xl transform -rotate-2 -z-20"></div>

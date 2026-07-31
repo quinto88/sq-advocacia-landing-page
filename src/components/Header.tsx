@@ -36,7 +36,7 @@ const Header = () => {
             <img 
               src={sqLogo.url} 
               alt="SQ Advocacia" 
-              className="h-12 w-auto"
+              className="h-14 w-auto rounded-lg"
             />
           </div>
 
