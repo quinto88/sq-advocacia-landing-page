@@ -1,5 +1,6 @@
 
 import { Scale, Phone, Mail, MapPin } from 'lucide-react';
+import sqLogo from '@/assets/sq-logo.jpeg.asset.json';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/bca97286-c78d-43cb-b01e-5546d3c8b584.png" 
+                src={sqLogo.url} 
                 alt="SQ Advocacia" 
                 className="h-12 w-auto filter brightness-0 invert"
               />

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Scale } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import sqLogo from '@/assets/sq-logo.jpeg.asset.json';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/bca97286-c78d-43cb-b01e-5546d3c8b584.png" 
+              src={sqLogo.url} 
               alt="SQ Advocacia" 
               className="h-12 w-auto"
             />
