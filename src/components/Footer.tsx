@@ -1,6 +1,7 @@
 
 import { Scale, Phone, Mail, MapPin } from 'lucide-react';
-import sqLogo from '@/assets/sq-logo.jpeg';
+import sqLogo from '@/assets/sq-logo.png.asset.json';
+
 
 const Footer = () => {
   return (
@@ -11,11 +12,12 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src={sqLogo} 
+                src={sqLogo.url} 
                 alt="SQ Advocacia" 
                 className="h-14 w-auto rounded-lg"
               />
             </div>
+
             <p className="text-navy-200 leading-relaxed mb-4">
               Excelência em advocacia com mais de 5 anos de experiência. 
               Defendemos seus direitos com ética, compromisso e dedicação.
