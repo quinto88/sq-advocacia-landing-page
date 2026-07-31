@@ -1,5 +1,6 @@
 
 import { Scale, Phone, Mail, MapPin } from 'lucide-react';
+import sqLogo from '@/assets/sq-logo.jpeg';
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/bca97286-c78d-43cb-b01e-5546d3c8b584.png" 
+                src={sqLogo} 
                 alt="SQ Advocacia" 
-                className="h-12 w-auto filter brightness-0 invert"
+                className="h-14 w-auto rounded-lg"
               />
             </div>
             <p className="text-navy-200 leading-relaxed mb-4">
@@ -81,7 +82,7 @@ const Footer = () => {
                 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                 window.open(url, '_blank');
               }}
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg rounded-md transition-colors font-medium"
+              className="bg-terracotta-400 hover:bg-terracotta-500 text-white px-8 py-3 text-lg rounded-md transition-colors font-medium"
             >
               Quero falar com um advogado
             </button>

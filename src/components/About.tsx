@@ -55,7 +55,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="bg-white p-6 rounded-2xl shadow-lg">
+              <div className="bg-sand-50 p-6 rounded-2xl shadow-lg">
                 <h3 className="text-xl font-semibold text-navy-900 mb-4 font-playfair">
                   Nossa Missão
                 </h3>
@@ -75,7 +75,7 @@ const About = () => {
               {values.map((value, index) => (
                 <div 
                   key={index}
-                  className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+                  className="bg-sand-50 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex items-start space-x-4">
@@ -99,7 +99,7 @@ const About = () => {
       </section>
 
       {/* Apresentação do Dr. Gustavo Quinto */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-sand-50">
         <div className="container-width section-padding">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Foto */}

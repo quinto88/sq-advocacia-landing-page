@@ -94,7 +94,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contato" className="py-20 bg-white">
+    <section id="contato" className="py-20 bg-sand-50">
       <div className="container-width section-padding">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold text-navy-900 mb-4">
@@ -130,7 +130,7 @@ const Contact = () => {
                   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                   window.open(url, '_blank');
                 }}
-                className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg h-auto"
+                className="w-full bg-terracotta-400 hover:bg-terracotta-500 text-white py-3 text-lg h-auto"
               >
                 Falar no WhatsApp
               </Button>

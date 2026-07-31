@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Scale } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import sqLogo from '@/assets/sq-logo.jpeg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,16 +27,16 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-sand-50/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
       <div className="container-width section-padding">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/bca97286-c78d-43cb-b01e-5546d3c8b584.png" 
+              src={sqLogo} 
               alt="SQ Advocacia" 
-              className="h-12 w-auto"
+              className="h-14 w-auto rounded-lg"
             />
           </div>
 
@@ -84,7 +85,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 py-4 animate-fade-in">
+          <div className="md:hidden bg-sand-50 border-t border-gray-100 py-4 animate-fade-in">
             <nav className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection('inicio')}
