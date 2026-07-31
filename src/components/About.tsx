@@ -1,6 +1,8 @@
 
 import { CheckCircle, Target, Eye, Heart } from 'lucide-react';
+import gustavoFoto from '@/assets/gustavo-quinto.png.asset.json';
 import amabileFoto from '@/assets/amabile.jpeg.asset.json';
+
 
 const About = () => {
   const values = [
@@ -107,12 +109,14 @@ const About = () => {
             <div className="order-2 lg:order-1 animate-slide-in-left flex justify-center lg:justify-start">
               <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
                 <img 
-                  src="/lovable-uploads/9306dc58-fea5-499e-b1f9-8e3ce781af0a.png" 
+                  src={gustavoFoto.url}
                   alt="Dr. Gustavo Quinto"
                   className="w-full h-full object-cover object-center"
+                  loading="lazy"
                 />
               </div>
             </div>
+
 
             {/* Informações */}
             <div className="order-1 lg:order-2 space-y-8 animate-slide-in-right">
@@ -144,7 +148,7 @@ const About = () => {
                 <ul className="space-y-2 text-navy-700">
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
-                    <span>Defesa em Busca e Apreensão</span>
+                    <span>Direito Imobiliário</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <CheckCircle size={16} className="text-navy-600" />
@@ -155,6 +159,7 @@ const About = () => {
                     <span>Direito do Consumidor</span>
                   </li>
                 </ul>
+
               </div>
             </div>
           </div>
