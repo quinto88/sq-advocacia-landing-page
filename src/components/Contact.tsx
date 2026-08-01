@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -78,6 +78,12 @@ const Contact = () => {
       title: 'E-mail',
       content: 'sqadvocaciaesp@gmail.com',
       action: 'mailto:sqadvocaciaesp@gmail.com'
+    },
+    {
+      icon: Instagram,
+      title: 'Instagram',
+      content: '@sqadvocacia',
+      action: 'https://instagram.com/sqadvocacia'
     },
     {
       icon: MapPin,
