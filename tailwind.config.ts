@@ -26,7 +26,7 @@ export default {
 			colors: {
 				// Verde petróleo (paleta principal, mantém o nome "navy" usado no site)
 				'navy': {
-					50: '#eef4f3',
+					50: '#edf5eb',
 					100: '#d4e3e0',
 					200: '#a9c6c1',
 					300: '#78a5a0',
