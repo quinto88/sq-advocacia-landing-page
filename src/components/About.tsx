@@ -1,6 +1,6 @@
 
 import { CheckCircle, Target, Eye, Heart } from 'lucide-react';
-import gustavoFoto from '@/assets/gustavo-quinto.png.asset.json';
+import gustavoFoto from '@/assets/gustavo-quinto.jpg.asset.json';
 import amabileFoto from '@/assets/amabile.jpg.asset.json';
 
 
