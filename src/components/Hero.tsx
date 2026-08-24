@@ -1,6 +1,6 @@
 import { ArrowRight, Shield, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import sqLogo from '@/assets/sq-logo.png.asset.json';
+import sqLogo from '@/assets/sq-logo.png';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -57,7 +57,7 @@ const Hero = () => {
           {/* Visual */}
           <div className="relative animate-slide-in-right">
             <div className="relative z-10">
-              <img src={sqLogo.url} alt="SQ Advocacia" className="w-full max-w-md mx-auto rounded-3xl shadow-xl" />
+              <img src={sqLogo} alt="SQ Advocacia" className="w-full max-w-md mx-auto rounded-3xl shadow-xl" />
             </div>
 
             <div className="absolute inset-0 bg-gradient-to-br from-navy-100/50 to-navy-200/30 rounded-3xl transform rotate-3 -z-10"></div>
