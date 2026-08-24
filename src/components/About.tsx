@@ -1,7 +1,7 @@
 
 import { CheckCircle, Target, Eye, Heart } from 'lucide-react';
-import gustavoFoto from '@/assets/gustavo-quinto.png.asset.json';
-import amabileFoto from '@/assets/amabile.png.asset.json';
+import gustavoFoto from '@/assets/gustavo-quinto.png';
+import amabileFoto from '@/assets/amabile.png';
 
 
 const About = () => {
@@ -109,7 +109,7 @@ const About = () => {
             <div className="order-2 lg:order-1 animate-slide-in-left flex justify-center lg:justify-start">
               <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
                 <img 
-                  src={gustavoFoto.url}
+                  src={gustavoFoto}
                   alt="Dr. Gustavo Quinto"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
@@ -214,7 +214,7 @@ const About = () => {
             <div className="animate-slide-in-right flex justify-center lg:justify-end">
               <div className="relative rounded-2xl overflow-hidden shadow-lg w-80 h-80">
                 <img
-                  src={amabileFoto.url}
+                  src={amabileFoto}
                   alt="Dra. Amabile Stefeni, advogada especialista em Direito Imobiliário"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
