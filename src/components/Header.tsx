@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Scale } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import sqLogo from '@/assets/sq-logo.png.asset.json';
+import sqLogo from '@/assets/sq-logo.png';
 
 
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src={sqLogo.url} 
+              src={sqLogo} 
               alt="SQ Advocacia" 
               className="h-14 w-auto rounded-lg"
             />
